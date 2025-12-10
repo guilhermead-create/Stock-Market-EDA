@@ -163,4 +163,5 @@ if variacao_percentual > 0 and media_volatilidade < 40:
 elif variacao_percentual > 0 and media_volatilidade >= 40:
     print("RESULTADO: Ativo subiu, mas com muita oscilação. Cuidado com a volatilidade.")
 else:
+
     print("RESULTADO: Ativo em baixa. Momento exige cautela ou estratégia de venda.")
